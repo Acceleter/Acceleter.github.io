@@ -1,11 +1,12 @@
-# Hongze Chen Personal Homepage
+# Hongze Chen Academic Homepage
 
-Static GitHub Pages homepage for `Hongze Chen`.
+Static GitHub Pages academic homepage for `Hongze Chen`.
 
 ## Files
 
 - `index.html`: page content
 - `styles.css`: page styling
+- `_config.yml`: optional Jekyll configuration for GitHub Pages
 
 ## Deploy To GitHub Pages
 

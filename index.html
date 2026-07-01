@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Hongze Chen's personal homepage."
+      content="Hongze Chen's academic homepage. Student interested in DLM, agents, and embodied intelligence."
     />
     <title>Hongze Chen</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,18 +17,137 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <main class="page">
-      <section class="profile" aria-labelledby="name">
-        <div class="avatar" aria-hidden="true">HC</div>
-        <p class="eyebrow">Student / Research Learner</p>
-        <h1 id="name">Hongze Chen</h1>
-        <a class="email" href="mailto:chenhz2004@gmail.com">chenhz2004@gmail.com</a>
-        <p class="bio">
-          I am a student interested in DLM, agents, and embodied intelligence.
-          My current focus is learning how intelligent systems reason, act, and
-          interact with real or simulated environments.
+    <header class="site-header">
+      <a href="#top" class="brand">Hongze Chen</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#interests">Interests</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top" class="layout">
+      <aside class="sidebar" aria-label="Profile">
+        <div class="portrait" aria-hidden="true">HC</div>
+        <!-- Add a real portrait later:
+        <img class="portrait-image" src="./assets/profile.jpg" alt="Hongze Chen" />
+        -->
+        <h1>Hongze Chen</h1>
+        <p class="role">Student</p>
+        <!-- Add affiliation later:
+        <p class="affiliation">Your University or Lab</p>
+        -->
+        <p class="sidebar-bio">
+          Interested in DLM, agents, and embodied intelligence.
         </p>
-      </section>
+        <div class="profile-links">
+          <a href="mailto:chenhz2004@gmail.com">chenhz2004@gmail.com</a>
+          <!-- Add academic/social links later:
+          <a href="https://github.com/your-username">GitHub</a>
+          <a href="https://scholar.google.com/citations?user=your-id">Google Scholar</a>
+          <a href="https://www.linkedin.com/in/your-id/">LinkedIn</a>
+          -->
+        </div>
+      </aside>
+
+      <div class="content">
+        <section id="about" class="section">
+          <p class="kicker">About</p>
+          <h2>Academic Homepage</h2>
+          <p>
+            I am a student exploring intelligent systems, with a current focus
+            on DLM, agents, and embodied intelligence. I am interested in how
+            models can reason, plan, interact with environments, and support
+            more capable autonomous behavior.
+          </p>
+          <p>
+            This page collects my research interests, selected updates, and
+            future academic work.
+          </p>
+        </section>
+
+        <section id="interests" class="section">
+          <p class="kicker">Research Interests</p>
+          <h2>Topics</h2>
+          <ul class="topic-list">
+            <li>
+              <strong>DLM</strong>
+              <span>Learning and applying deep learning models for intelligent behavior.</span>
+            </li>
+            <li>
+              <strong>Agents</strong>
+              <span>Reasoning, planning, tool use, and autonomous task execution.</span>
+            </li>
+            <li>
+              <strong>Embodied Intelligence</strong>
+              <span>Connecting perception, decision-making, and action in interactive environments.</span>
+            </li>
+          </ul>
+        </section>
+
+        <section id="news" class="section">
+          <p class="kicker">News</p>
+          <h2>Updates</h2>
+          <ol class="news-list">
+            <li>
+              <time datetime="2026-07">Jul 2026</time>
+              <span>Launched this academic homepage.</span>
+            </li>
+            <!-- Add future updates later:
+            <li>
+              <time datetime="YYYY-MM">Month YYYY</time>
+              <span>Your update here.</span>
+            </li>
+            -->
+          </ol>
+        </section>
+
+        <!-- Add publications when available:
+        <section id="publications" class="section">
+          <p class="kicker">Publications</p>
+          <h2>Selected Publications</h2>
+          <article class="publication">
+            <h3>Paper Title</h3>
+            <p>Authors. Venue, Year.</p>
+            <a href="https://doi.org/...">Paper</a>
+          </article>
+        </section>
+        -->
+
+        <!-- Add projects when available:
+        <section id="projects" class="section">
+          <p class="kicker">Projects</p>
+          <h2>Selected Projects</h2>
+          <article class="project">
+            <h3>Project Name</h3>
+            <p>Short project description.</p>
+            <a href="https://github.com/...">Code</a>
+          </article>
+        </section>
+        -->
+
+        <!-- Add education when available:
+        <section id="education" class="section">
+          <p class="kicker">Education</p>
+          <h2>Education</h2>
+          <article class="entry">
+            <h3>Degree or Program</h3>
+            <p>University, Year - Year.</p>
+          </article>
+        </section>
+        -->
+
+        <section id="contact" class="section contact">
+          <p class="kicker">Contact</p>
+          <h2>Get in Touch</h2>
+          <p>
+            For academic communication or collaboration, please contact me by
+            email.
+          </p>
+          <a class="button" href="mailto:chenhz2004@gmail.com">Email Hongze</a>
+        </section>
+      </div>
     </main>
   </body>
 </html>
